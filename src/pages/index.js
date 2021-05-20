@@ -25,16 +25,6 @@ const IndexPage = () => (
             I am good in learning new technologies and adapting to technological environments.
             I have a sound knowledge of programming concepts and tools. 
           </p>
-          <div className="social-icons">
-            {config.socialLinks.map(social => {
-              const { icon, url } = social;
-              return (
-                <a key={url} href={url}>
-                  <i className={`fab ${icon}`}></i>
-                </a>
-              );
-            })}
-          </div>
         </div>
       </section>
 
@@ -94,51 +84,22 @@ const IndexPage = () => (
               <i className="fab fa-js-square"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-react"></i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
           </ul>
-
-          <div className="subheading mb-3">Workflow</div>
+          <div className="subheading mb-3">Projects</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Corona buddy - web application about statistics of covid-19.
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Medical storage management system - gui written in python
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Student portal - web application
             </li>
           </ul>
         </div>
