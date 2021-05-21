@@ -4,11 +4,9 @@ Gatsby.js V2 starter template based on Resume by startbootstrap
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-resume/)
+Check online preview [here](https://.github.io/gatsby-starter-resume/)
 
 ## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
 
 ## Install
 
@@ -21,7 +19,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-resume
+gatsby new <site-name> https://github.com/TERMINATOR-source/gatsby-starter-resume
 ```
 
 Then you can run it by:
@@ -40,14 +38,14 @@ Edit `config.js` to put up your details
 module.exports = {
   siteTitle: 'Gatsby Starter Resume', // <title>
   ...
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  firstName: 'Akshat',
+  lastName: 'Sahu',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/akshatsahu',
     }
     ...
   ],
